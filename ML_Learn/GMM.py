@@ -40,4 +40,3 @@ plt.xlabel('PCA 1')
 plt.ylabel('PCA 2')
 plt.title('3 Cluster Visualization by 2 PCA Components')
 plt.show()
-123123123124
