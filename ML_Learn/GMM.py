@@ -9,6 +9,8 @@ iris_data = load_iris()
 irisDF = pd.DataFrame(data=iris_data.data, columns=['sepal_length','sepal_width','petal_length','petal_width'])
 print(irisDF)
 
+
+
 gmm = GaussianMixture(n_components=3, random_state=0).fit(iris_data.data)
 gmm_cluster_labels = gmm.predict(iris_data.data)
 print(gmm_cluster_labels)
